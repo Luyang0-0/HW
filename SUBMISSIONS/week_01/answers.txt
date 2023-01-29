@@ -1,0 +1,64 @@
+Last login: Sat Jan 28 17:23:04 on ttys001
+(base) luyang@Luyangs-MacBook ~ % cd Documents
+(base) luyang@Luyangs-MacBook Documents % cd Python5050
+(base) luyang@Luyangs-MacBook Python5050 % cd assignment-upstream-spring-2023
+(base) luyang@Luyangs-MacBook assignment-upstream-spring-2023 % git init
+Reinitialized existing Git repository in /Users/luyang/Documents/Python5050/assignment-upstream-spring-2023/.git/
+(base) luyang@Luyangs-MacBook assignment-upstream-spring-2023 % mkdir SUBMISSIONS
+(base) luyang@Luyangs-MacBook assignment-upstream-spring-2023 % cd SUBMISSIONS
+(base) luyang@Luyangs-MacBook SUBMISSIONS % mkdir week_01
+(base) luyang@Luyangs-MacBook SUBMISSIONS % cd week_01
+(base) luyang@Luyangs-MacBook week_01 % mkdir s1
+(base) luyang@Luyangs-MacBook week_01 % cd s1
+(base) luyang@Luyangs-MacBook s1 % mkdir s3
+(base) luyang@Luyangs-MacBook s1 % cd s3
+(base) luyang@Luyangs-MacBook s3 % touch conf.txt
+(base) luyang@Luyangs-MacBook s3 % vi conf.txt
+(base) luyang@Luyangs-MacBook s3 % cd ..
+(base) luyang@Luyangs-MacBook s1 % mkdir s2
+(base) luyang@Luyangs-MacBook s1 % cd s2
+(base) luyang@Luyangs-MacBook s2 % touch text_chunk1.txt
+(base) luyang@Luyangs-MacBook s2 % vi text_chunk1.txt
+(base) luyang@Luyangs-MacBook s2 % mkdir Advanced
+(base) luyang@Luyangs-MacBook s2 % cd Advanced
+(base) luyang@Luyangs-MacBook Advanced % touch text_chunk2.txt
+(base) luyang@Luyangs-MacBook Advanced % vi text_chunk2.txt
+(base) luyang@Luyangs-MacBook Advanced % cd
+(base) luyang@Luyangs-MacBook ~ % cd Documents/Python5050
+(base) luyang@Luyangs-MacBook Python5050 % cd assignment-upstream-spring-2023
+(base) luyang@Luyangs-MacBook assignment-upstream-spring-2023 % git add .
+(base) luyang@Luyangs-MacBook assignment-upstream-spring-2023 % git commit -m "second"
+[main da53ce3] second
+ Committer: Luyang Jia <luyang@Luyangs-MacBook.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 7 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 SUBMISSIONS/.DS_Store
+ create mode 100644 SUBMISSIONS/week_01/.DS_Store
+ create mode 100644 SUBMISSIONS/week_01/s1/.DS_Store
+ create mode 100644 SUBMISSIONS/week_01/s1/s2/.DS_Store
+ create mode 100644 SUBMISSIONS/week_01/s1/s2/Advanced/.DS_Store
+ create mode 100644 SUBMISSIONS/week_01/s1/s2/Advanced/text_chunk2.txt
+ create mode 100644 SUBMISSIONS/week_01/s1/s2/text_chunk1.txt
+ rename SUBMISSIONS/week_01/{answers.txt => s1/s3/conf.txt} (100%)
+(base) luyang@Luyangs-MacBook assignment-upstream-spring-2023 % git push
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (21/21), 2.06 KiB | 1.03 MiB/s, done.
+Total 21 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), completed with 1 local object.
+To https://github.com/Luyang0-0/HW.git
+   674fa4f..da53ce3  main -> main
