@@ -27,8 +27,8 @@ Reinitialized existing Git repository in /Users/luyang/Documents/Python5050/assi
 (base) luyang@Luyangs-MacBook ~ % cd Documents/Python5050
 (base) luyang@Luyangs-MacBook Python5050 % cd assignment-upstream-spring-2023
 (base) luyang@Luyangs-MacBook assignment-upstream-spring-2023 % git add .
-(base) luyang@Luyangs-MacBook assignment-upstream-spring-2023 % git commit -m "second"
-[main da53ce3] second
+(base) luyang@Luyangs-MacBook assignment-upstream-spring-2023 % git commit -m "hw1"
+[main da53ce3] hw1
  Committer: Luyang Jia <luyang@Luyangs-MacBook.local>
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
