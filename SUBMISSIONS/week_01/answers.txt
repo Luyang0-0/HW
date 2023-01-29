@@ -1,0 +1,23 @@
+Last login: Sun Jan 29 12:30:49 on ttys000
+(base) luyang@Luyangs-MacBook ~ % cd Documents/Python5050/assignment-upstream-spring-2023
+(base) luyang@Luyangs-MacBook assignment-upstream-spring-2023 % git init
+Reinitialized existing Git repository in /Users/luyang/Documents/Python5050/assignment-upstream-spring-2023/.git/
+(base) luyang@Luyangs-MacBook assignment-upstream-spring-2023 % mkdir SUBMISSIONS
+(base) luyang@Luyangs-MacBook assignment-upstream-spring-2023 % cd SUBMISSIONS
+(base) luyang@Luyangs-MacBook SUBMISSIONS % mkdir week_01
+(base) luyang@Luyangs-MacBook SUBMISSIONS % cd week_01
+(base) luyang@Luyangs-MacBook week_01 % mkdir s1
+(base) luyang@Luyangs-MacBook week_01 % cd s1
+(base) luyang@Luyangs-MacBook s1 % mkdir s3
+(base) luyang@Luyangs-MacBook s1 % cd s3
+(base) luyang@Luyangs-MacBook s3 % touch conf.txt
+(base) luyang@Luyangs-MacBook s3 % vi conf.txt
+(base) luyang@Luyangs-MacBook s3 % cd ..
+(base) luyang@Luyangs-MacBook s1 % mkdir s2
+(base) luyang@Luyangs-MacBook s1 % cd s2
+(base) luyang@Luyangs-MacBook s2 % touch text_chunk1.txt
+(base) luyang@Luyangs-MacBook s2 % vi text_chunk1.txt
+(base) luyang@Luyangs-MacBook s2 % mkdir Advanced
+(base) luyang@Luyangs-MacBook s2 % cd Advanced
+(base) luyang@Luyangs-MacBook Advanced % touch text_chunk2.txt
+(base) luyang@Luyangs-MacBook Advanced % vi text_chunk2.txt
